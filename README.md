@@ -24,12 +24,12 @@ GLOBAL OPTIONS:
 
 Export the titan locator address. 
 ```shell
-export LOCATOR_API_INFO=https://120.78.83.177:5000
+export LOCATOR_API_INFO=https://39.108.143.56:5000
 
 ```
 Use the download command to fetch the desired file. Specify the CID with the -c flag, and the output file location with the -o flag.
 
-```
- » ./titan-cli download -c QmbmPTRvxq8W9DKa9CAHk3GmuEdYBkCXScVFko1D4CiJRn -o /tmp/download.car
+```shell
+titan-cli download -c QmXRrLjxgHd2Ls8jFZby2fx2wQuuqBkamQE8ibY6TnREA4 -o /tmp/QmXRrLjxgHd2Ls8jFZby2fx2wQuuqBkamQE8ibY6TnREA4.zip
 ```
 
